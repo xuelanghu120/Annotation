@@ -3,17 +3,9 @@ package com.annotation;
 
 
 
-import com.example.SDCardRootFile;
+import com.hu.annotation.SDCardRootFile;
 
 import java.io.Serializable;
-
-import static com.annotation.Constant.DISK_DATA;
-import static com.annotation.Constant.DISK_DOWNLOAD_PATH;
-import static com.annotation.Constant.DISK_IMAGE_PHOTO_PATH;
-import static com.annotation.Constant.DISK_MSG_CACHE_PATH;
-import static com.annotation.Constant.DISK_MSG_RECORD_VOICE_PATH;
-import static com.annotation.Constant.DISK_SOUND_PATH;
-import static com.annotation.Constant.DISK_TAKE_PHOTO_PATH;
 
 /**
  * Created by walkingMen on 2016/8/1.

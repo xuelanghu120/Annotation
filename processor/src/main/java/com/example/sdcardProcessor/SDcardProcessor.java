@@ -1,6 +1,6 @@
 package com.example.sdcardProcessor;
 
-import com.example.SDCardRootFile;
+import com.hu.annotation.SDCardRootFile;
 import com.example.utils.ProcessorUtil;
 import com.example.utils.StringUtils;
 import com.google.auto.service.AutoService;
@@ -34,7 +34,7 @@ import javax.tools.Diagnostic;
  *  处理器
  */
 @AutoService(Processor.class)
-@SupportedAnnotationTypes({"com.example.annota1tions.SDCardRootFile"})
+@SupportedAnnotationTypes({"com.hu.annotation.SDCardRootFile"})
 public class SDcardProcessor extends AbstractProcessor {
 
     private static final String CLASS_NAME = "SDCardUtil";

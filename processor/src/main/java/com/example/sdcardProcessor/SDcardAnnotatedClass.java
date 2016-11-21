@@ -1,6 +1,6 @@
 package com.example.sdcardProcessor;
 
-import com.example.SDCardRootFile;
+import com.hu.annotation.SDCardRootFile;
 
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
